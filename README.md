@@ -7,6 +7,7 @@ This project presents a Medical Diagnosis Prediction System developed in C++. Th
 
 **Introduction:**
 Healthcare systems handle large amounts of patient information that require efficient storage, retrieval, and processing. This project demonstrates how data structures can be applied to solve real-world healthcare problems. The system provides facilities for patient registration, symptom assessment, disease prediction, prioritization of emergency cases, and record management.
+
 **Objectives:**
 • Develop a console-based healthcare application.
 • Apply data structures to real-world scenarios.
@@ -15,11 +16,12 @@ Healthcare systems handle large amounts of patient information that require effi
 • Predict diseases using machine learning.
 • Store and retrieve records using file handling.
 • Provide undo functionality for predictions.
-Problem Statement:
+
+**Problem Statement:**
 Hospitals and clinics often face challenges in organizing patient information and prioritizing urgent cases. The objective of this project is to develop a system that can efficiently manage patients and provide disease predictions based on symptoms while demonstrating the practical implementation of data structures.
 
 
-System Features:
+**System Features:**
 1. Patient Registration
 2. Automatic Patient ID Generation
 3. Phone Number Validation
