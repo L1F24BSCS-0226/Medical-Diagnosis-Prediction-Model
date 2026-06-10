@@ -1,11 +1,13 @@
 ****MEDICAL DIAGNOSIS PREDICTION SYSTEM:****
 Detailed Project Report
 Submitted for the Data Structures Course
-Abstract:
+
+**Abstract:**
 This project presents a Medical Diagnosis Prediction System developed in C++. The system combines traditional data structures with a machine learning approach to provide disease prediction support based on symptoms entered by users. The application manages patient records, prioritizes critical patients, maintains diagnosis history, and predicts possible diseases using a multiclass logistic regression model trained on a symptoms dataset.
-Introduction:
+
+**Introduction:**
 Healthcare systems handle large amounts of patient information that require efficient storage, retrieval, and processing. This project demonstrates how data structures can be applied to solve real-world healthcare problems. The system provides facilities for patient registration, symptom assessment, disease prediction, prioritization of emergency cases, and record management.
-Objectives:
+**Objectives:**
 • Develop a console-based healthcare application.
 • Apply data structures to real-world scenarios.
 • Implement efficient patient management.
