@@ -30,30 +30,55 @@ System Features:
 10. Undo Last Prediction
 11. Patient Search and Editing
 12. CSV Dataset Integration
+
+
+
+
 Data Structures Used:
 Queue: Used for normal patient assessment.
 Stack: Used to undo the last prediction operation.
 Linked List: Maintains prediction history.
 Max Heap: Prioritizes patients with higher severity.
 Binary Search Tree: Stores disease information for searching.
+
+
+
 Queue Implementation:
 The queue follows the FIFO principle. Patients with lower severity levels are inserted into the queue. Operations include enqueue, dequeue, and checking whether the queue is empty. The time complexity of enqueue and dequeue operations is O(1).
+
+
+
 Stack Implementation:
 The stack follows the LIFO principle. Whenever a prediction is generated, a copy of the patient record is pushed onto the stack. The pop operation allows the system to undo the most recent prediction. Push and pop operations both execute in O(1) time.
+
+
+
 Linked List Implementation:
 The linked list stores the prediction history. Each node contains patient details and predicted disease information. New records are inserted at the head of the list, resulting in O(1) insertion complexity.
 
 
 Max Heap Implementation:
 The max heap prioritizes patients according to severity. Critical patients are automatically inserted into the heap, while normal patients may later be transferred from the queue. Insert and extract operations execute in O(log n) time.
+
+
+
 Binary Search Tree Implementation:
 The BST maintains disease information. Diseases are inserted alphabetically and can be searched efficiently. Average search complexity is O(log n), although worst-case complexity may become O(n).
+
+
+
 Machine Learning Component:
 The project incorporates multiclass logistic regression using a One-vs-Rest approach. Separate binary classifiers are trained for each disease class. During prediction, probabilities from all classifiers are compared and the diseases with the highest confidence values are returned.
+
+
 Dataset Description:
 The dataset is stored in CSV format and contains disease-symptom relationships. Based on the provided implementation, the model supports 41 diseases and 131 symptoms. The uploaded dataset contained approximately 4920 training records representing 41 distinct diseases.
+
+
 Input Validation:
 The system validates age, severity levels, phone numbers, and menu selections to ensure that invalid inputs do not compromise system functionality.
+
+
 File Handling:
 Persistent storage is achieved through text files. Patient records are stored in patient.txt, diagnosis records are written to diagnosis_records.txt, and the most recent patient ID is maintained in last_id.txt.
 
